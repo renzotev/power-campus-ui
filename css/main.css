@@ -1,0 +1,56 @@
+.col-1-2{width:49%}
+.btn-gray{background-color:#f0f0f0;border-color:#ddd;border-style:outset;border-width:1px;color:#666;cursor:pointer;padding:10px 20px;box-shadow:0 1px 2px rgba(0,0,0,0.6);-moz-box-shadow:0 1px 2px rgba(0,0,0,0.6);-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.6)}
+.btn-blue{background-color:#1570bc;border-color:#ddd;border-style:outset;border-width:1px;color:#fff;cursor:pointer;padding:10px 20px;box-shadow:0 1px 2px rgba(0,0,0,0.6);-moz-box-shadow:0 1px 2px rgba(0,0,0,0.6);-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.6)}
+.left{float:left}
+.right{float:right}
+.fix-overflow{overflow:hidden}
+.wrapper{border:1px solid #666;color:#333;font-family:Arial;font-size:16px;min-width:800px;min-height:650px;overflow:hidden;position:relative;width:100%;}
+.wrapper h1,.wrapper h2{font-weight:normal;margin:0;padding:0}
+.wrapper h1{font-size:30px}
+.wrapper h2{font-size:20px}
+.wrapper .sidebar h3{font-weight:normal;font-size:14px;margin:10px 30px;color:#111}
+.wrapper .sidebar h4{font-weight:normal;font-style:italic;font-size:14px;margin:10px 30px;color:#666}
+.wrapper .sidebar hr{border:0;border-top:1px solid #999;margin:20px 0}
+.wrapper .sidebar .figure.user{margin-top:58px;text-align:center}
+.wrapper .sidebar .trayectoria{font-weight:bold;margin:10px 30px}
+.wrapper .sidebar .last-date{color:#666;font-size:14px;margin:10px 25px}
+.wrapper .sidebar .graphic #status{margin:0 auto}
+.wrapper .main.section{width:100%;}
+.wrapper .main.section .container{margin-right:242px;padding:20px;}
+.wrapper .main.section .container > span{display:block;margin-bottom:20px}
+.wrapper .main.section .container .row.summary{min-height:210px;position:relative;}
+.wrapper .main.section .container .row.summary > .left{margin-right:227px;}
+.wrapper .main.section .container .row.summary > .left h1{margin-bottom:20px}
+.wrapper .main.section .container .row.summary > .left .info p{margin:14px 20px}
+.wrapper .main.section .container .row.summary .alert-wrapper{background:#1570bc;color:#fff;position:absolute;right:0;top:0;width:227px;}
+.wrapper .main.section .container .row.summary .alert-wrapper .alert1{padding:20px;}
+.wrapper .main.section .container .row.summary .alert-wrapper .alert1 .alert-icon{background:url("../img/alert-icon.png");display:block;height:48px;margin-right:15px;width:48px}
+.wrapper .main.section .general-form{float:left;width:100%;}
+.wrapper .main.section .general-form label{display:block;float:left}
+.wrapper .main.section .general-form textarea{width:99%;margin-top:20px;height:151px;resize:vertical}
+.wrapper .main.section .general-form .title{margin-top:40px;border-bottom:1px solid #999;padding-bottom:10px;color:#111}
+.wrapper .main.section .general-form .row input[type="text"]{width:99%}
+.wrapper .main.section .general-form .row label{width:98px;line-height:26px}
+.wrapper .main.section .general-form .row > .input-wrapper,.wrapper .main.section .general-form .row .two-colums-wrapper{max-width:800px}
+.wrapper .main.section .general-form .row .input-wrapper{margin:15px 0;}
+.wrapper .main.section .general-form .row .input-wrapper div{padding-left:100px}
+.wrapper .main.section .general-form .row .two-colums-wrapper{overflow:hidden;}
+.wrapper .main.section .general-form .row .two-colums-wrapper .input-wrapper.cel div{padding-right:7px}
+.wrapper .main.section .general-form .row .wrapper-title2{position:relative;overflow:hidden;}
+.wrapper .main.section .general-form .row .wrapper-title2 .left{padding-right:20px;color:#1570bc}
+.wrapper .main.section .general-form .row .wrapper-title2 .left,.wrapper .main.section .general-form .row .wrapper-title2 .right{background:#fff}
+.wrapper .main.section .general-form .row .wrapper-title2 .line{border-top:1px solid #999;margin-top:13px;position:absolute;width:100%;z-index:-1}
+.wrapper .main.section .general-form .row .wrapper-title2 .right{padding-left:20px;}
+.wrapper .main.section .general-form .row .wrapper-title2 .right .agregar{text-decoration:none;display:block;background:#1570bc;border-radius:5px;color:#fff;padding:10px 15px;text-align:center}
+.wrapper .main.section .general-form .row.profesional-profile .character-limit{margin-right:20px;font-size:12px;color:#666}
+.wrapper .main.section .general-form .row.calification .col-1-2 input{width:85%}
+.wrapper .main.section .general-form .row.educational-category button.pregrado{margin-right:25px}
+.wrapper .main.section .general-form .row.educational-category .subtitle{color:#999;margin-top:30px}
+.wrapper .main.section .general-form .row.educational-category .date{font-size:14px}
+.wrapper .main.section .general-form .row.educational-category .info-category{background:#ebebeb;padding:15px 0 10px;margin-bottom:30px;}
+.wrapper .main.section .general-form .row.educational-category .info-category p{margin:0 25px}
+.wrapper .main.section .general-form .row.educational-category .info-category label{margin-right:12px;line-height:normal;width:auto}
+.wrapper .main.section .general-form .send-cancel-btns .cancel{background:none;border:0 none;color:#333;cursor:pointer;line-height:42px;margin-right:15px;}
+.wrapper .main.section .general-form .send-cancel-btns .cancel:hover{text-decoration:underline}
+.wrapper .row{overflow:hidden;width:100%}
+.wrapper .sidebar{background:#f7f7f7;height:100%;position:absolute;right:0;top:0;width:242px}
