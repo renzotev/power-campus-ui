@@ -106,6 +106,8 @@ azul = #1570bc
 			& > span
 				display block
 				margin-bottom 20px
+				color azul
+				font-weight bold
 
 			.row.summary
 				min-height 210px
@@ -187,6 +189,7 @@ azul = #1570bc
 				.wrapper-title2
 					position relative
 					overflow hidden
+					min-height 40px
 
 					.left
 						padding-right 20px
@@ -261,6 +264,165 @@ azul = #1570bc
 
 					&:hover
 						text-decoration underline
+
+		.general-form.actividad-docente
+			& > .row
+				.wrapper-title2
+					margin-top 80px
+					margin-bottom 20px
+
+				&:first-child
+					.wrapper-title2
+						margin-top 0
+
+			.informacion-wrapper
+				.act-doc-table
+					tr
+						th,
+						td
+							padding 10px
+							text-align center
+
+					.gray
+						background #F0F0F0
+			
+		.general-form.inner-wrapper
+			& > .row
+				.wrapper-title2
+					margin-top 40px
+
+				&:first-child
+					.wrapper-title2
+						margin-top 0
+
+			.informacion-wrapper.consult
+				margin-bottom 40px
+
+			.informacion-wrapper
+				margin-top 20px
+				position relative
+				width 100%
+
+				p
+					margin 5px 0
+					font-size 14px
+
+				.fecha,
+				.fecha-curso
+					display block
+					font-size 13px
+					margin-top -8px
+					position absolute
+					right 0
+					top 50%
+
+				.fecha-curso
+					margin-top 0
+					top 0
+
+				.agregado-por
+					background #f0f0f0
+					display inline-block
+					*display inline
+					font-style italic
+					padding 10px
+
+				.ver-mas
+					display inline-block
+					*display inline
+					position absolute
+					cursor pointer
+					color azul
+					padding-right 20px
+					line-height 16px
+					top 25px
+					right 0
+
+					&:hover
+						border-bottom 1px solid azul
+
+					span
+						font-size 40px
+						line-height 11px
+						position absolute
+						top 0
+						right -2px
+
+				.ver-mas-detalle
+					margin-top 20px
+					display none
+
+					.detalle-titulo
+						color #666
+						font-weight bold
+				
+
+		.general-form.informacion-academica
+			& > .row
+				.wrapper-title2
+					margin-top 40px
+
+				&:first-child
+					.wrapper-title2
+						margin-top 0
+
+			.informacion-wrapper
+				margin-top 20px
+				position relative
+				width 100%
+
+				p
+					margin 5px 0
+					font-size 14px
+
+				.idiomas-table
+					tr
+						td,
+						th
+							text-align left
+							padding 10px
+
+						th
+							font-weight normal
+							color #999
+
+						td
+							&:first-child
+								font-weight bold
+								padding-right 30px
+					
+
+				.carrera
+					font-weight bold
+					font-size 15px
+
+				.curso
+					font-weight bold
+
+				.curso-descripcion
+					padding-right 130px
+
+				.grado
+					color #999
+
+				.fecha,
+				.fecha-curso
+					display block
+					font-size 13px
+					margin-top -8px
+					position absolute
+					right 0
+					top 50%
+
+				.fecha-curso
+					margin-top 0
+					top 0
+
+				.no-encontrados
+					color #999
+					font-size 17px
+					font-weight bold
+				
 
 	.row
 		overflow hidden
